@@ -2,7 +2,7 @@ import arrow from "..//assets/shared/desktop/arrow2.svg";
 import logo from "..//assets/shared/desktop/logo2.svg";
 import { Link } from "react-router-dom";
 import FooterStyled from "./StyledComponents/FooterStyled";
-import useWindowWidth from "./Hooks/usewindowWidth";
+import useWindowWidth from "./Hooks/useWindowWidth";
 
 const Footer = () => {
   const width = useWindowWidth();

@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <Link to="/">
-        <img src={logo} alt="logo" />
+        <img src={logo} onClick={handleClickOnLink} alt="logo" />
       </Link>
       {(!hideNav || width >= 768) && (
         <nav>
