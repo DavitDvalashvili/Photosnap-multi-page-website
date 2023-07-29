@@ -1,5 +1,5 @@
-import arrow from "..//assets/shared/desktop/arrow2.svg";
-import logo from "..//assets/shared/desktop/logo2.svg";
+import arrow from "../../public/assets/shared/desktop/arrow2.svg";
+import logo from "../../public/assets/shared/desktop/logo2.svg";
 import { Link } from "react-router-dom";
 import FooterStyled from "./StyledComponents/FooterStyled";
 import useWindowWidth from "./Hooks/useWindowWidth";

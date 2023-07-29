@@ -4,7 +4,7 @@ import {
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
-import Root from "./components/Root";
+import Root from "./Root";
 import HomePage from "./components/Pages/HomePage";
 import StoriesPage from "./components/Pages/StoriesPage";
 import FeaturesPage from "./components/Pages/FeaturesPage";

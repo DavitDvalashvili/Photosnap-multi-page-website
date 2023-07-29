@@ -1,6 +1,6 @@
-import logo from "../assets/shared/desktop/logo.svg";
-import burgerIcon from "../assets/shared/desktop/menu.svg";
-import close from "../assets/shared/desktop/close.svg";
+import logo from "../../public/assets/shared/desktop/logo.svg";
+import burgerIcon from "../../public/assets/shared/desktop/menu.svg";
+import close from "../../public/assets/shared/desktop/close.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import useWindowWidth from "./Hooks/useWindowWidth";

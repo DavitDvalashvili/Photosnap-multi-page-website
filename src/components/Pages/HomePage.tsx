@@ -1,7 +1,10 @@
 import HomeStyled from "../StyledComponents/HomeStyled";
-import arrow from "../../assets/../assets/shared/desktop/arrow.svg";
-import arrow2 from "../../assets/../assets/shared/desktop/arrow2.svg";
-import storiesData from "../../storiesData.json";
+import arrow from "../../../public/assets/shared/desktop/arrow.svg";
+import arrow2 from "../../../public/assets/shared/desktop/arrow2.svg";
+import storiesData from "../../data/storiesData.json";
+import { StoryWrapper } from "../StyledComponents/HomeStyled";
+import { FeatureContainer } from "../StyledComponents/HomeStyled";
+import featureData from "../../data/featuresData.json";
 
 const HomePage = () => {
   return (
@@ -39,7 +42,7 @@ const HomePage = () => {
           <p>
             Photosnap can help you create stories that resonate with your
             audience. Our tool is designed for photographers of all levels,
-            brands, businesses you name it.{" "}
+            brands, businesses you name it.
           </p>
           <div>
             <span>GET AN INVITE</span>
@@ -49,9 +52,8 @@ const HomePage = () => {
       </section>
       <section className="storyContainer">
         {storiesData.slice(0, 4).map((story, index) => (
-          <div className="outerWrapper" key={index}>
+          <StoryWrapper index={index} key={index}>
             <div className="innerWrapper">
-              <span className="date">{story.date}</span>
               <h2>{story.name}</h2>
               <span className="author">by {story.author}</span>
               <div>
@@ -59,9 +61,18 @@ const HomePage = () => {
                 <img src={arrow2} alt="arrow" />
               </div>
             </div>
-          </div>
+          </StoryWrapper>
         ))}
       </section>
+      <FeatureContainer>
+        {featureData.slice(0, 3).map((feature) => (
+          <div>
+            <img src={feature.images} alt="featureImage" />
+            <h3>{feature.feature}</h3>
+            <p>{feature.description}</p>
+          </div>
+        ))}
+      </FeatureContainer>
     </HomeStyled>
   );
 };

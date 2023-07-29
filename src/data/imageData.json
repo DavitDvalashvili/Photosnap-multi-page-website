@@ -1,0 +1,25 @@
+[
+    {
+        "beautiful" :
+        {
+            "mobile" : "./assets/home/mobile/beautiful.svg",
+            "tablet": "./assets/home/tablet/beautiful.svg",
+            "desktop": "./assets/home/desktop/beautiful.svg"
+        },
+        "creation":
+        {
+            "mobile" : "./assets/home/mobile/create-and-share.svg",
+            "tablet": "./assets/home/tablet/create-and-share.svg",
+            "desktop": "./assets/home/desktop/create-and-share.svg"
+        },
+        "design":
+        {
+            "mobile" : "./assets/home/mobile/designed-for-everyone.svg",
+            "tablet": "./assets/home/tablet/designed-for-everyone.svg",
+            "desktop": "./assets/home/desktop/designed-for-everyone.svg"
+        }
+    }
+
+]
+
+

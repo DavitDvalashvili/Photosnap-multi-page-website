@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import facebook from "../../assets/shared/Smedia/facebook.svg";
-import youtube from "../../assets/shared/Smedia/youtube.svg";
-import twitter from "../../assets/shared/Smedia/twitter.svg";
-import pinterest from "../../assets/shared/Smedia/pinterest.svg";
-import instagram from "../../assets/shared/Smedia/instagram.svg";
-import facebookHover from "../../assets/shared/Smedia/facebookHover.svg";
-import youtubeHover from "../../assets/shared/Smedia/youtubeHover.svg";
-import twitterHover from "../../assets/shared/Smedia/twitterHover.svg";
-import pinterestHover from "../../assets/shared/Smedia/pinterestHover.svg";
-import instagramHover from "../../assets/shared/Smedia/instagramHover.svg";
+import facebook from "../../../public/assets/shared/Smedia/facebook.svg";
+import youtube from "../../../public/assets/shared/Smedia/youtube.svg";
+import twitter from "../../../public/assets/shared/Smedia/twitter.svg";
+import pinterest from "../../../public/assets/shared/Smedia/pinterest.svg";
+import instagram from "../../../public/assets/shared/Smedia/instagram.svg";
+import facebookHover from "../../../public/assets/shared/Smedia/facebookHover.svg";
+import youtubeHover from "../../../public/assets/shared/Smedia/youtubeHover.svg";
+import twitterHover from "../../../public/assets/shared/Smedia/twitterHover.svg";
+import pinterestHover from "../../../public/assets/shared/Smedia/pinterestHover.svg";
+import instagramHover from "../../../public/assets/shared/Smedia/instagramHover.svg";
 
 const sMediaStyle = `
 display: flex;
