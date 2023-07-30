@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import iData from "../../data/ImageData.json";
-import sData from "../../data/storiesData.json";
-import { wrapperType } from "../../Type";
 
 const HomeStyled = styled.main`
   .flexBox {
@@ -46,7 +44,12 @@ const HomeStyled = styled.main`
           width: 128px;
           height: 6px;
           border: none;
-          background: linear-gradient(27deg, #FFC593 0%, #BC7198 51.95%, #5A77FF 100%);
+          background: linear-gradient(
+            27deg,
+            #ffc593 0%,
+            #bc7198 51.95%,
+            #5a77ff 100%
+          );
           position: absolute;
           top: 0px;
           left: 33px;
@@ -157,7 +160,7 @@ const HomeStyled = styled.main`
           width: 42.36vw;
         }
         .imageBox {
-          width:57.64vw
+          width: 57.64vw;
         }
       }
       .wrapper1 {
@@ -190,92 +193,6 @@ const HomeStyled = styled.main`
 
 export default HomeStyled;
 
-export const StoryWrapper = styled.div<wrapperType>`
-  position: relative;
-  width: 100%;
-  height: 375px;
-  &:nth-of-type(${(props) => props.index + 1}) .outerWrapper {
-    background-image: url(${(props) => sData[props.index]["images"]["mobile"]});
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .outerWrapper {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    &:hover {
-      top: -24px;
-    }
-    .innerWrapper {
-      width: 100%;
-      height: 100%;
-      padding: 40px 32px 40px 33px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      color: #ffffff;
-      background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.66) 100%
-      );
-      .date {
-        font-size: 13px;
-        font-weight: 400;
-        margin-bottom: 4px;
-      }
-      .h2 {
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 25px;
-      }
-      .author {
-        font-size: 13px;
-        font-weight: 400;
-        margin: 4px 0px 16px 0px;
-      }
-      div {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        padding-top: 20px;
-        border-top: solid 1px rgba(255, 255, 255, 0.25);
-      }
-    }
-    &:hover {
-      hr {
-        background: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
-      }
-    }
-    hr {
-      height: 6px;
-      border: none;
-    }
-  }
-  @media (min-width: 768px) {
-    &:nth-of-type(${(props) => props.index + 1}) .outerWrapper {
-    background-image: url(${(props) => sData[props.index]["images"]["tablet"]});
-    }
-    width: 50vw;
-    height: 500px;
-  }
-  @media (min-width: 1440px) {
-    &:nth-of-type(${(props) => props.index + 1}) .outerWrapper {
-    background-image: url(${(props) => sData[props.index]["images"]["desktop"]});
-    }
-    width: 25vw;
-  }
-`;
-
-
 export const FeatureContainer = styled.section`
   padding: 80px 32px;
   display: flex;
@@ -301,7 +218,7 @@ export const FeatureContainer = styled.section`
       font-weight: 400;
     }
   }
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 120px 155px;
     gap: 80px;
   }
@@ -318,6 +235,5 @@ export const FeatureContainer = styled.section`
         }
       }
     }
-
   }
 `;

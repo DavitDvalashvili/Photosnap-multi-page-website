@@ -2,7 +2,7 @@ import HomeStyled from "../StyledComponents/HomeStyled";
 import arrow from "../../../public/assets/shared/desktop/arrow.svg";
 import arrow2 from "../../../public/assets/shared/desktop/arrow2.svg";
 import storiesData from "../../data/storiesData.json";
-import { StoryWrapper } from "../StyledComponents/HomeStyled";
+import { StoryWrapper } from "../StyledComponents/StoryStyled";
 import { FeatureContainer } from "../StyledComponents/HomeStyled";
 import featureData from "../../data/featuresData.json";
 
