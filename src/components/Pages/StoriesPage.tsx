@@ -32,6 +32,7 @@ const StoriesPage = () => {
           <StoryWrapper index={index} key={index}>
             <div className="outerWrapper">
               <div className="innerWrapper">
+                <span className="date">{story.date}</span>
                 <h2>{story.name}</h2>
                 <span className="author">by {story.author}</span>
                 <div>

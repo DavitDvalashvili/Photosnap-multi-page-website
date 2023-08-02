@@ -100,7 +100,7 @@ const HomeStyled = styled.main`
         justify-content: center;
         align-items: center;
         .textBox {
-          width: 64.45vw;
+          width: 64.452vw;
           h1 {
             font-size: 40px;
             line-height: 48px;
@@ -112,7 +112,7 @@ const HomeStyled = styled.main`
           }
         }
         .imageBox {
-          width: 35.54vw;
+          width: 35.548vw;
           height: 600px;
         }
       }
@@ -157,10 +157,10 @@ const HomeStyled = styled.main`
     .flexBox {
       .flexWrapper {
         .textBox {
-          width: 42.36vw;
+          width: 42.3612vw;
         }
         .imageBox {
-          width: 57.64vw;
+          width: 57.639vw;
         }
       }
       .wrapper1 {
