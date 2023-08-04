@@ -120,6 +120,7 @@ export const BetaWrapper = styled.section`
     align-items: center;
     gap: 16px;
     span {
+      cursor: pointer;
       &:hover {
         text-decoration: underline;
       }

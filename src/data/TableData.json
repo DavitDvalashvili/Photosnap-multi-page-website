@@ -1,0 +1,64 @@
+[
+    {
+        "feature": "UNLIMITED STORY POSTING",
+       "images": 
+       {
+        "basic": "./assets/shared/desktop/check.svg",
+        "pro": "./assets/shared/desktop/check.svg",
+        "business": "./assets/shared/desktop/check.svg"
+       }
+    },
+    {
+        "feature": "UNLIMITED PHOTO UPLOAD",
+        "images": 
+        {
+         "basic": "./assets/shared/desktop/check.svg",
+         "pro": "./assets/shared/desktop/check.svg",
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    },
+    {
+        "feature": "EMBEDDING CUSTOM CONTENT",
+        "images": 
+        {
+         "pro": "./assets/shared/desktop/check.svg",
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    },
+    {
+        "feature": "CUSTOMIZE METADATA",
+        "images": 
+        {
+         "pro": "./assets/shared/desktop/check.svg",
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    },
+    {
+        "feature": "ADVANCED METRICS",
+        "images": 
+        {
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    },
+    {
+        "feature": "PHOTO DOWNLOADS",
+        "images": 
+        {
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    },
+    {
+        "feature": "SEARCH ENGINE INDEXING",
+        "images": 
+        {
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    },
+    {
+        "feature": "CUSTOM ANALYTICS",
+        "images": 
+        {
+         "business": "./assets/shared/desktop/check.svg"
+        }
+    }
+]
