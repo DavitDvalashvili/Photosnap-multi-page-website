@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import iData from "../../data/ImageData.json";
+import iData from "../../data/imageData.json";
 
 const HomeStyled = styled.main`
   .flexBox {
     width: 100vw;
     .textBox {
-      background-color: red;
       width: 100%;
       padding: 72px 24px 72px 33px;
       background-color: #ffffff;
