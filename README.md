@@ -1,4 +1,4 @@
-# Planets-fact-site
+# Photosnap-multi-page-website
 
 ### Table of Contents
 
@@ -38,7 +38,7 @@ See hover states for all interactive elements throughout the sitelogy"
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/DavitDvalashvili/Photosnap-multi-page-website)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Add live site URL here](https://photosnap-multi-page-website-two.vercel.app/)
 
 ### Getting Started
 
@@ -62,21 +62,23 @@ npm run dev
 
 # Build-with
 
-- React Javascript library
-- Styled Components for styling
+- React Javascript library;
+- Styled Components for styling;
 - React router;
+- Typescript;
+- Vite;
 
 ### Project Structure
 
-|--- src
-| |--- components # reusable components
-| |--- styled-components # all components' styles
-| |---|--- GlobalStyle
-| |--- App.jsx # main page
+|--- src;
+| |--- components # reusable components;
+| |--- styled-components # all components' styles;
+| |---|--- GlobalStyle;
+| |--- App.tsx # main page;
 
-- data.json # needful data for project
-- package.json # dependency manager configurations
-- vite.config.js # fast build tool
+- data.json # needful data for project;
+- package.json # dependency manager configurations;
+- vite.config.js # fast build tool;
 
 ```
 
