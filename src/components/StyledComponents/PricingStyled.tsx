@@ -225,5 +225,90 @@ export const SubHeaderPricing = styled(SubHeader)`
 
 export const Table = styled.section`
   margin: 64px 28px 64px 29px;
-  background-color: red;
+  color: #000000;
+  font-weight: 700;
+  .tableHeader {
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #000000;
+  }
+  .tableRow {
+    padding: 23px 0px 24px 0px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .title {
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    .checkBoxWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 47px;
+      font-size: 10px;
+      letter-spacing: 1.667px;
+      text-transform: uppercase;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: flex-start;
+        height: 33px;
+        span {
+          opacity: 0.5;
+        }
+        img {
+          width: 16px;
+          height: 12px;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    margin: 112px 40px 112.5px 39px;
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 4.167px;
+      margin-bottom: 46px;
+    }
+    .tableHeader {
+      display: flex;
+      justify-content: space-between;
+      div {
+        display: flex;
+        span {
+          width: 140px;
+          font-size: 12px;
+          letter-spacing: 2px;
+          text-align: center;
+        }
+      }
+    }
+    .tableRow {
+      padding: 23px 62px 23.5px 24px;
+      flex-direction: row;
+      gap: unset;
+      justify-content: space-between;
+      .checkBoxWrapper {
+        padding: 0px;
+        gap: 124px;
+        div {
+          height: unset;
+        }
+      }
+    }
+  }
+  @media (min-width: 1440px) {
+    margin: 160px auto 160.5px auto;
+    max-width: 731px;
+    h3 {
+      margin-bottom: 56px;
+    }
+  }
 `;

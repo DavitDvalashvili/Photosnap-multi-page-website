@@ -158,23 +158,23 @@ const PricingPage = () => {
           )}
         </div>
         {TableData.map((feature) => (
-          <div className="row">
+          <div className="tableRow">
             <div className="title">{feature.feature}</div>
             <div className="checkBoxWrapper">
               <div>
-                <span>basic</span>
+                {width < 768 && <span>basic</span>}
                 {feature.images.basic && (
                   <img src={feature.images.basic} alt="check" />
                 )}
               </div>
               <div>
-                <span>pro</span>
+                {width < 768 && <span>pro</span>}
                 {feature.images.pro && (
                   <img src={feature.images.pro} alt="check" />
                 )}
               </div>
               <div>
-                <span>business</span>
+                {width < 768 && <span>business</span>}
                 {feature.images.business && (
                   <img src={feature.images.business} />
                 )}
